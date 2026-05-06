@@ -26,7 +26,7 @@ async function doMending(item) {
     if (many) {
         let userId = socketUtils.firstOwner(item.parent, true);
         denom = await dialogUtils.selectHitDie(item.parent, item.name, 'CHRISPREMADES.Macros.Healer.SelectHitDie', {userId});
-        if(!denom?.[0].amount) return;
+        if(!denom || !denom[0].amount) return;
         denom = denom[0].document.system.hd.denomination;
     } else
         denom = 'd' + (hd.largestFace || hd.denomination);
