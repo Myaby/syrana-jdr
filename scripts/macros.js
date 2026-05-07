@@ -504,6 +504,9 @@ export {knightlyEnvoy} from './macros/2024/classFeatures/fighter/banneret/knight
 // Paladin
 export {layOnHands} from './macros/2024/classFeatures/paladin/layOnHands.js';
 export {paladinsSmite} from './macros/2024/classFeatures/paladin/paladinsSmite.js';
+export {channelDivinityPaladin} from './macros/2024/classFeatures/paladin/channelDivinityPaladin.js';
+// Oath of the Ancients
+export {naturesWrath} from './macros/2024/classFeatures/paladin/oathOfTheAncients/naturesWrath.js';
 // Pugilist
 export {bloodiedButUnbowed} from './macros/2024/classFeatures/pugilist/bloodiedButUnbowed.js';
 export {digDeep, digDeepEffect} from './macros/2024/classFeatures/pugilist/digDeep.js';

@@ -1,6 +1,9 @@
 # 1.5.28 Release:
 ## Update Notes:
 - This is not a V14 update. An update for V14 is still a work in progress.
+## New Modern Content:
+- Channel Divinity (Paladin)
+- Nature's Wrath
 ## Bug Fixes:
 - Healing Machine
 - Enhanced Bond
