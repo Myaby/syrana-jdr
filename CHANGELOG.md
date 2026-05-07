@@ -3,6 +3,7 @@
 - This is not a V14 update. An update for V14 is still a work in progress.
 ## Bug Fixes:
 - Healing Machine
+- Enhanced Bond
 
 # 1.5.27 Release:
 ## Update Notes:
