@@ -1,3 +1,10 @@
+# 1.5.29 Release:
+## Update Notes:
+- This is not a V14 update. An update for V14 is still a work in progress.
+## Bug Fixes:
+- Protection
+- Flash of Genius
+
 # 1.5.28 Release:
 ## Update Notes:
 - This is not a V14 update. An update for V14 is still a work in progress.
