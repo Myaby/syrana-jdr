@@ -7,6 +7,8 @@
 - Flaming Sphere
 - Dust Devil
 - Conjure Fey
+## API Bug Fixes:
+- `tokenUtils.checkCover` now takes the highest value between token status effects and cover module calculations.
 
 # 1.5.28 Release:
 ## Update Notes:

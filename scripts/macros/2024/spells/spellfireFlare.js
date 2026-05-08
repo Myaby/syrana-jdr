@@ -38,7 +38,7 @@ async function blast({trigger, workflow}) {
     animationUtils.simpleAttack(workflow.token, workflow.targets.first(), animation, {sound: sound, missed: !workflow.hitTargets.has(workflow.targets.first())});
 }
 async function attack({trigger, workflow}) {
-    let coverBonus = tokenUtils.checkCover(workflow.token, workflow.targets.first(), {item: workflow.item});
+    let coverBonus = tokenUtils.checkCover(workflow.token, workflow.targets.first(), {activity: workflow.activity});
     if (!(coverBonus == 2 || coverBonus == 5)) return;
     await workflowUtils.bonusAttack(workflow, String(coverBonus));
 }
