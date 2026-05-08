@@ -4,6 +4,7 @@
 ## Bug Fixes:
 - Protection
 - Flash of Genius
+- Flaming Sphere
 
 # 1.5.28 Release:
 ## Update Notes:
