@@ -5,6 +5,8 @@
 - Protection
 - Flash of Genius
 - Flaming Sphere
+- Dust Devil
+- Conjure Fey
 
 # 1.5.28 Release:
 ## Update Notes:

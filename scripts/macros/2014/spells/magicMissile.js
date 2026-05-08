@@ -2,10 +2,12 @@ import {activityUtils, actorUtils, animationUtils, dialogUtils, effectUtils, err
 async function use({workflow}) {
     if (!workflow.targets.size) return;
     let maxMissiles = 2 + workflowUtils.getCastLevel(workflow);
-    let [selection] = await dialogUtils.selectTargetDialog(workflow.item.name, genericUtils.format('CHRISPREMADES.Macros.MagicMissile.Select', {maxMissiles}), workflow.targets, {
+    let selection = await dialogUtils.selectTargetDialog(workflow.item.name, genericUtils.format('CHRISPREMADES.Macros.MagicMissile.Select', {maxMissiles}), workflow.targets, {
         type: 'selectAmount',
         maxAmount: maxMissiles
     });
+    if (!selection) return;
+    selection = selection[0];
     if (!selection || !selection.length) return;
     let feature = activityUtils.getActivityByIdentifier(workflow.item, 'magicMissileBolt');
     let featureFlat = activityUtils.getActivityByIdentifier(workflow.item, 'magicMissileFlat');
