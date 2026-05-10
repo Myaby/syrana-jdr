@@ -1,12 +1,14 @@
 # 1.5.29 Release:
 ## Update Notes:
 - This is not a V14 update. An update for V14 is still a work in progress.
+- Compendium pickers in the settings menu now display the source within brackets `[]` for compendiums with duplicate names.
 ## Bug Fixes:
 - Protection
 - Flash of Genius
 - Flaming Sphere
 - Dust Devil
 - Conjure Fey
+- Steel Defender
 ## API Bug Fixes:
 - `tokenUtils.checkCover` now takes the highest value between token status effects and cover module calculations.
 

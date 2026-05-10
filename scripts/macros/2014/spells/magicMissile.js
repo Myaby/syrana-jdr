@@ -23,7 +23,7 @@ async function use({workflow}) {
     let damageType = feature.damage.parts[0].types.first();
     let activityData;
     if (!rollEach) {
-        let damageRoll = await new CONFIG.Dice.DamageRoll(damageFormula, workflow.item.getRollData(), {type: damageType}).evaluate();
+        let damageRoll = await new CONFIG.Dice.DamageRoll(damageFormula, workflow.activity.getRollData(), {type: damageType}).evaluate();
         await MidiQOL.displayDSNForRoll(damageRoll);
         activityData = activityUtils.withChangedDamage(featureFlat, damageRoll.total.toString(), [damageType]);
     }
