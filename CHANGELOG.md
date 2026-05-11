@@ -1,6 +1,7 @@
 # 1.5.29 Release:
 ## Update Notes:
 - This is not a V14 update. An update for V14 is still a work in progress.
+- This update includes a small adjustment for changes to advancements in DND5E v5.3.x. It is still compatible with DND5E v5.2.5
 - Compendium pickers in the settings menu now display the source within brackets `[]` for compendiums with duplicate names.
 ## Bug Fixes:
 - Protection
