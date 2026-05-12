@@ -103,18 +103,8 @@ async function damage({trigger, workflow}) {
     await workflow.setDamageRolls(workflow.damageRolls);
     workflow.defaultDamageType = selection;
 }
-async function added({trigger: {entity: item, actor}}) {
-    let classIdentifier = itemUtils.getConfig(item, 'classIdentifier');
-    let scaleIdentifier = itemUtils.getConfig(item, 'scaleIdentifier');
-    let scale = actor.system.scale?.[classIdentifier]?.[scaleIdentifier];
-    if (scale) return;
-    let classItem = actor.classes[classIdentifier];
-    if (!classItem) return;
-    let classData = genericUtils.duplicate(classItem.toObject());
-    classData.system.advancement.push(channelDivinity.scales[0].data);
-    await genericUtils.update(classItem, {'system.advancement': classData.system.advancement});
-    let message = genericUtils.format('CHRISPREMADES.Requirements.ScaleAdded', {classIdentifier, scaleIdentifier});
-    genericUtils.notify(message, 'info');
+async function added({trigger: {entity: item}}) {
+    await itemUtils.fixScales(item);
 }
 export let channelDivinity = {
     name: 'Channel Divinity (Cleric)',
