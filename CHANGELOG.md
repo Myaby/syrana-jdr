@@ -7,7 +7,7 @@
 ## Bug Fixes:
 - Channel Divinity (Cleric, modern)
 ## API Bug Fixes:
-- The dialog app should no longer allow invalid selections on initial render for options wight weights.
+- The dialog app should no longer allow invalid selections on initial render for options with weights.
 
 # 1.5.29 Release:
 ## Update Notes:
