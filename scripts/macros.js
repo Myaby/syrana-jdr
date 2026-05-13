@@ -472,6 +472,19 @@ export {fiendishVigor} from './macros/2024/classFeatures/warlock/invocations/fie
 export {devilsSight} from './macros/2024/classFeatures/warlock/invocations/devilsSight.js';
 export {giftOfTheProtectors} from './macros/2024/classFeatures/warlock/invocations/giftOfTheProtectors.js';
 export {oneWithShadows} from './macros/2024/classFeatures/warlock/invocations/oneWithShadows.js';
+// Sorcerer
+export {carefulSpell} from './macros/2024/classFeatures/sorcerer/carefulSpell.js';
+export {distantSpell} from './macros/2024/classFeatures/sorcerer/distantSpell.js';
+export {empoweredSpell} from './macros/2024/classFeatures/sorcerer/empoweredSpell.js';
+export {extendedSpell} from './macros/2024/classFeatures/sorcerer/extendedSpell.js';
+export {heightenedSpell} from './macros/2024/classFeatures/sorcerer/heightenedSpell.js';
+export {quickenedSpell} from './macros/2024/classFeatures/sorcerer/quickenedSpell.js';
+export {seekingSpell} from './macros/2024/classFeatures/sorcerer/seekingSpell.js';
+export {subtleSpell} from './macros/2024/classFeatures/sorcerer/subtleSpell.js';
+export {transmutedSpell} from './macros/2024/classFeatures/sorcerer/transmutedSpell.js';
+export {twinnedSpell} from './macros/2024/classFeatures/sorcerer/twinnedSpell.js';
+export {twinnedSpellAttack} from './macros/2024/classFeatures/sorcerer/twinnedSpellAttack.js';
+
 // Monk
 export {martialArts} from './macros/2024/classFeatures/monk/martialArts.js';
 export {unarmoredDefenseMonk} from './macros/2024/classFeatures/monk/unarmoredDefense.js';
