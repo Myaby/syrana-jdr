@@ -3,6 +3,7 @@
 - This is not a V14 update. An update for V14 is still a work in progress.
 ## Bug Fixes:
 - Channel Divinity (Cleric, modern)
+- Arcane Ward
 
 # 1.5.30 Release:
 ## Update Notes:

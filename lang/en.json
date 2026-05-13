@@ -922,7 +922,8 @@
                 "Choose": "Select hit dice to use:"
             },
             "ArcaneWard": {
-                "Protect": "Protect {tokenName} with your arcane ward?"
+                "Protect": "Protect {tokenName} with your arcane ward?",
+                "TempHP": "Consume Temp HP First:"
             },
             "ArmorOfAgathys": {
                 "Reflect": "Armor of Agathys: Reflect"
