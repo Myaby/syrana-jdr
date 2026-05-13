@@ -36,3 +36,44 @@ export let test2 = {
         ]
     }
 };
+
+export let syranaTest = {
+    identifier :'heightenedSpell',
+    name: 'Metamagic: Heightened Spell',
+    version: '1.1.0',
+    rules: 'legacy',
+    midi: {
+        item: [
+            {
+                pass: 'rollFinished',
+                macro: useHeightened,
+                priority: 50
+            }
+        ],
+        actor: [
+            {
+                pass: 'preambleComplete',
+                macro: earlyHeightened,
+                priority: 50
+            }
+        ]
+    },
+    ddbi: {
+        removedItems: {
+            'Metamagic: Heightened Spell': [
+                'Metamagic - Heightened Spell'
+            ]
+        },
+        correctedItems: {
+            'Metamagic: Heightened Spell': {
+                system: {
+                    consume: {
+                        amount: null,
+                        target: '',
+                        type: ''
+                    }
+                }
+            }
+        }
+    }
+};
