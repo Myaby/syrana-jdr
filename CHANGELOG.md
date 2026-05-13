@@ -4,6 +4,9 @@
 ## Bug Fixes:
 - Channel Divinity (Cleric, modern)
 - Arcane Ward
+- Tinker's Magic
+## API Update Notes
+- `CompendiumBrowser.select` has new filters, `compendium` and `systemIdentifier`.
 
 # 1.5.30 Release:
 ## Update Notes:

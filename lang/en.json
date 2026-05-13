@@ -2712,7 +2712,7 @@
                 "Name": "Time Trigger"
             },
             "TinkersMagic": {
-                "LimitList": "Limit items to rules list:",
+                "CustomCompendium": "Custom Mundane Item Compendium:",
                 "NeedTools": "You must have Tinker's Tools to use {itemName}!",
                 "Prompt": "Choose {itemName} Item:",
                 "RequireTools": "Require Tinker's Tools:"
